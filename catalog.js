@@ -10,6 +10,8 @@ window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES.unshift({
         id: "hdapad",
         // Required.
         label: "PAD",
+        // Optional. If specified, defines a unique icon for this item.
+        icon: "hdalogo.jpg",
         // Required. Items matching any tag will appear in this subcategory.
         tags: [
           "hda",
